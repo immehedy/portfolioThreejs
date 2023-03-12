@@ -1,7 +1,7 @@
 
 const Who = () => {
   return (
-    <div className="h-screen bg-green-400 snap-center">Who</div>
+    <div className="h-screen text-white snap-center">Who</div>
   )
 }
 
