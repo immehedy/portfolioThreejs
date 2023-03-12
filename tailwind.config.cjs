@@ -10,7 +10,8 @@ module.exports = {
         'btn-primary': '#d54da1',
       },
       backgroundImage : {
-        'main-bg' : "url('/img/bg.jpeg')"
+        'main-bg' : "url('/img/bg.jpeg')",
+        'space': "url('/img/space.gif')",
       },
       keyframes: {
         juggling : {
