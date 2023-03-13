@@ -17,3 +17,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.custom-text-stroke {
+  -webkit-text-stroke: 1px white;
+  font-family: sans-serif;
+}

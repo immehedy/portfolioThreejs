@@ -16,10 +16,14 @@ module.exports = {
       keyframes: {
         juggling : {
           'to' : {transform: 'translateY(20px)'}
+        },
+        textFilled: {
+          to: {color: 'white'}
         }
       },
       animation: {
-        'bouncing-slow' : 'juggling 1.5s infinite ease alternate'
+        'bouncing-slow' : 'juggling 1.5s infinite ease alternate',
+        'fillTheText' : 'textFilled 0.7s linear both'
       }
     },
   },
