@@ -3,7 +3,7 @@ import RightContent from "./sections/RightContent"
 
 const Who = () => {
   return (
-    <div className="h-screen text-white snap-center flex gap-2 items-center justify-around">
+    <div className="h-screen text-white snap-center grid grid-cols-2 items-center">
         <LeftContent/>
         <RightContent/>
     </div>
